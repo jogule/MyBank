@@ -18,7 +18,7 @@ function Test-Case {
 $testname = "TestGoodEmail"
 $actual = .\bin\Debug\net5.0\MyBank.exe account open -u joe@doe.com
 $expected = 'Result: OK'
-$testscript = { param($_actual, $_expected) $_actual.Split(",")[0].Equals($_expected) }
+$testscript = { param($_actual, $_expected) $_actual.Split(",")[0].Equals($_expected) } #TODO: Improve GoodEmail expected response validation with random AccountID and UserSecret
 Test-Case $testname $actual $expected $testscript
 
 $testname = "TestBadEmail1"
