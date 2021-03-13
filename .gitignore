@@ -440,12 +440,3 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-!bin/
-!Release/
-!net5.0/
-!MyBank.exe
-!MyBank.dll
-
-[Bb]in/**/*.json
-[Bb]in/Release/net5.0/ref/
