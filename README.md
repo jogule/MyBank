@@ -1,19 +1,42 @@
 # MyBank
-MyBank CLI: simple console toy app to teach information technologies aimed to Banking Industry, 
-specially CxOs. MyBank is key to desmitify IT for non-technical people using domain specific concepts (i.e. Financial language).
+MyBank: simple toy app to teach through a hands-on experience modern cloud information technologies to CxOs (specifically in the Banking Industry)
+MyBank is key to desmitify IT for non-technical people using domain specific language (i.e. Financial/Business Terminology).
+MyBank focus on learning (experience) the essentials modern IT concepts from the perspective of a brand new agile team in charge to develop and operate an innovative portfolio of digital data-driven products/services for a potential DX-disrupted company.
 
-MyBank is an example on how DX can disrupt traditional Banking based on following assumptions:
-- Macrotrends:
-  - R&D + Marketing $ over Production + Distribution $ 
-  - Demand Aggregation over Offer Aggregation
-- Company Imperatives:
-  - Customer Experience (CX) over Any Else
-  - Data + Internet over Physical
-  - Trust + Agility over Control
-  - Culture + People over Processes + Machines
+MyBank Team has to:
+  - Re-design the banking Customer Experience (CX) from scratch leveraging all the potential of modern cloud tech, challenging all current assumptions
+  - Leverage all current assets
+  - Be agile to learn and adapt quick
+  - Leverage CX data from the service usage to continously improve the same CX 
+  - Modern Team:
+    - Individual
+      - Purposefulnes/Intentionality/Proactivity/Leadership (Clarity, Energy, Results)
+      - Creative/Openess/Growth Mindset/Range/Able to has two apparent contradictory ideas at the same time and sintetize something innovative
+      - Generosity as ultimate purpose of a social individual
+      - Commited/Accountable (your key individual accomplisments that contribute to team, business and customer results)
+      - Trusted
+    - Team
+      - Distributed
+      - Multidiciplinary/Diverse/Inclusive
+      - Collaborative (how you contibute to success of others, your results that builds on the work or ideas of others)
+      - Interdependency-based Trust (over Dependency-based Trust)
+      - Shared-Leadership 
+      - Organic/Flexible/Self 
 
-## MyBank v1.0.0
-### Services:
+MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with high odds to disrupt traditional Banking incumbents:
+  - Macrotrends:
+    - (R&D + Marketing) $ over (Production + Distribution) $ 
+    - Demand Aggregation over Offer Aggregation
+    - Huge subserved (CX) users from Traditional Banking 
+  - Team Imperatives:
+    - Customer Experience (CX) as Ultimate Competitive Advantange (profitable niche demand aggregation)
+    - Data + Internet over Physical
+    - Trust + Agility over Control
+    - Culture + People over Processes + Machines
+
+## MyBank v1.0.0: Quick PoC to replicate existing service
+
+### Essential Services:
     OpenAccount(<email>) : creates a new Account 
     { 
       Id: <guid>, //[auto-generated]
@@ -46,7 +69,7 @@ MyBank is an example on how DX can disrupt traditional Banking based on followin
       Status: Inactive //set Status to Inactive
     }
     
-### Concepts:
+### Essential Concepts:
     - Account:
       - Id: <guid>
       - Balance : 0 (default) | <number> > 0
@@ -55,7 +78,7 @@ MyBank is an example on how DX can disrupt traditional Banking based on followin
       - UserKey : <secret>
     - Token: Unique authenticable value representation (i.e. Bank Check)
 
-### Business Critical Assumptions:
+### Business Critical Success Factors (Assumptions/Warranties):
     - MyBank is able to authenticate all user's request using a secret
       - The secret is known exclusively by the User
     - Cannot withdraw > Balance
