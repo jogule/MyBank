@@ -14,7 +14,7 @@ MyBank is an example on how DX can disrupt traditional Banking based on followin
 
 ## MyBank v1.0.0
 ### Services:
-#### OpenAccount(<email>) : creates a new Account 
+    OpenAccount(<email>) : creates a new Account 
     { 
       Id: <guid>, //[auto-generated]
       Balance: 0, //Default
@@ -22,25 +22,25 @@ MyBank is an example on how DX can disrupt traditional Banking based on followin
       UserId: <email>, //[given]
       UserKey: <secret> //[auto-generated]
     }
-#### ShowAccount(<accountId>, <secret>) : gets Account's details
+    ShowAccount(<accountId>, <secret>) : gets Account's details
     { 
       Id: <accountId>, 
       Balance: 0, 
       Status: Active, 
       UserId: <email>
     }
-#### DepositToAccount(<accountId>, <ammount>, <secret>, <token>): credits Account's balance by given ammount
+    DepositToAccount(<accountId>, <ammount>, <secret>, <token>): credits Account's balance by given ammount
     { 
       Id: <accountId>, 
       Balance: <currentBalance> + <ammount>
     }
-#### WithdrawFromAccount(<accountId>, <ammount>, <secret>): debits Account's balance by given ammount
+    WithdrawFromAccount(<accountId>, <ammount>, <secret>): debits Account's balance by given ammount
     { 
       Id: <accountId>, 
       Balance: <currentBalance> - <ammount>
       Token: <token>
     }
-#### CloseAccount(<accountId>, <secret>) : deactivate an existing Account
+    CloseAccount(<accountId>, <secret>) : deactivate an existing Account
     { 
       Id: <accountId>, 
       Status: Inactive //set Status to Inactive
