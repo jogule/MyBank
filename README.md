@@ -33,6 +33,7 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
     - .exe executable (in ps o bash)
     - Pass the provided powershell test scripts
     - hint: (Tutorial: Create a .NET console application using Visual Studio Code) [https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code]
+    - hint: Microsoft Learn Nano Course [Take your first steps with C#] (https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/)
 
 ### Reference (for advance-level readers)
   - Summary of the Domain Driven Design concepts: https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091
