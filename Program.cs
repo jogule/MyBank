@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        //TODO: Concern Separation: Command Parsing + Args Validation + Business Logic + Presentation
+
         if (args.Length > 0 && args[0] == "hello")
         {
             Console.WriteLine("What's your name?");
@@ -19,6 +21,7 @@ class Program
             {
                 if (args.Length > 2 && (args[2] == "--user-id" || args[2] == "-u"))
                 {
+                    //TODO: Improve email validation by sending actual email
                     if (args.Length > 3
                         && !string.IsNullOrEmpty(args[3])
                         && Regex.IsMatch(
@@ -91,7 +94,7 @@ class Program
 
     private static Account OpenAccount(string userId)
     {
-        return new Account
+        var result = new Account
         {
             Id = Guid.NewGuid(),
             Balance = 0,
@@ -99,8 +102,13 @@ class Program
             UserId = userId,
             UserSecret = Guid.NewGuid()
         };
+
+        //TODO: Save Result
+
+        return result;
     }
 
+    // Class-less Models?
     private class Account
     {
         public Guid Id { get; set; }
