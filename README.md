@@ -18,7 +18,7 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
 MyBank v1.0.0: Quick PoC to replicate existing service
 ------------------------------------------------------
 ### Learning Goals
-  - Technical: What is Information? What is a Computer? I/O and GOTO
+  - Technical: What is Information? What is a Computer? I/O and GOTO; What's programming?
   - Industry: DX for Banking; What is Trust and Why is so Valuable?
   - Business: Computing Principles + inusual scenarios;
 
@@ -28,6 +28,7 @@ MyBank v1.0.0: Quick PoC to replicate existing service
   - Algorithms to Live By: The Computer Science of Human Decisions - Brian Christian and Tom Griffiths - Henry Hold and Company
     - Chapter 4: Caching
   - [Crash Course - Computer Science - Cryptography #33 - PBS Studios](https://www.youtube.com/watch?v=jhXCTbFnK8o&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=34)
+  - [Aggregation Theory - Ben Thompson](https://stratechery.com/2015/aggregation-theory/)
 
 ### Hands-on Challenge (for mid-level readers)
   - Implement First Mockup of MyBank app for open account service: 
@@ -35,6 +36,9 @@ MyBank v1.0.0: Quick PoC to replicate existing service
     - Pass the provided powershell test scripts
     - hint: [Tutorial: Create a .NET console application using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
     - hint: Microsoft Learn Nano Course [Take your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/)
+    - hint: download binaries: 
+      - [MyBank-v1.0.0-win-x86.exe](/bin/Release/net5.0/MyBank.exe)
+      - [MyBank-v1.0.0-dotnet-x86.exe](/bin/Release/net5.0/MyBank.dll)
 
 ### Reference (for advance-level readers)
   - [Summary of the Domain Driven Design concepts](https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091)
