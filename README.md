@@ -17,22 +17,30 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
 ## MyBank v1.0.0: Quick PoC to replicate existing service
 
 ### Learning Goals
-  - Technical: What is Information? What is a Computer? 
+  - Technical: What is Information? What is a Computer? I/O and GOTO
   - Industry: DX for Banking; What is Trust and Why is so Valuable?
   - Business: Computing Principles + inusual scenarios;
 
-### Recommended Reading
+### Recommended Reading (for begginer-level readers)
   - Code: The Hidden Language of Computer Hardware and Software - Charles Petzold - Microsoft Press
     - Chapter 1: Best Friends
   - Algorithms to Live By: The Computer Science of Human Decisions - Brian Christian and Tom Griffiths - Henry Hold and Company
     - Chapter 4: Caching
   - Crash Course - Computer Science - Cryptography #33 - PBS Studios: https://www.youtube.com/watch?v=jhXCTbFnK8o&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=34
 
-### Hands-on Challenge
+### Hands-on Challenge (for mid-level readers)
   - Implement First Mockup of MyBank app for open account service: 
     - .exe executable (in ps o bash)
     - Pass the provided powershell test scripts
     - hint: (Tutorial: Create a .NET console application using Visual Studio Code) [https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code]
+
+### Reference (for advance-level readers)
+  - Summary of the Domain Driven Design concepts: https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091
+  - Test Driven Development: By Example 1st Edición - Kent Beck
+  - The Agile Manifesto: http://agilemanifesto.org/
+  - 12 Factors: https://12factor.net/
+  - PACELC Theorem: https://en.wikipedia.org/wiki/PACELC_theorem
+  - dotnet docs: https://docs.microsoft.com/en-us/dotnet/fundamentals/
 
 ### Domain Model
 #### Essential Services (Functions):
