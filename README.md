@@ -16,7 +16,26 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
 
 ## MyBank v1.0.0: Quick PoC to replicate existing service
 
-### Essential Services (Functions):
+### Learning Goals
+  - Technical: What is Information? What is a Computer? 
+  - Industry: DX for Banking; What is Trust and Why is so Valuable?
+  - Business: Computing Principles + inusual scenarios;
+
+### Recommended Reading
+  - Code: The Hidden Language of Computer Hardware and Software - Charles Petzold - Microsoft Press
+    - Chapter 1: Best Friends
+  - Algorithms to Live By: The Computer Science of Human Decisions - Brian Christian and Tom Griffiths - Henry Hold and Company
+    - Chapter 4: Caching
+  - Crash Course - Computer Science - Cryptography #33 - PBS Studios: https://www.youtube.com/watch?v=jhXCTbFnK8o&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=34
+
+### Hands-on Challenge
+  - Implement First Mockup of MyBank app for open account service: 
+    - .exe executable (in ps o bash)
+    - Pass the provided powershell test scripts
+    - hint: (Tutorial: Create a .NET console application using Visual Studio Code) [https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code]
+
+### Domain Model
+#### Essential Services (Functions):
     OpenAccount(<email>) : creates a new Account 
     { 
       Id: <guid>, //[auto-generated]
@@ -49,7 +68,7 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
       Status: Inactive //set Status to Inactive
     }
     
-### Essential Concepts (Data):
+#### Essential Concepts (Data):
     - Account:
       - Id: <guid>
       - Balance : 0 (default) | <number> > 0
@@ -58,7 +77,7 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
       - UserKey : <secret>
     - Token: Unique authenticable value representation (i.e. Bank Check)
 
-### Business Critical Success Factors (Assumptions/Warranties):
+#### Business Critical Success Factors (Assumptions/Warranties):
     - MyBank is able to authenticate all user's request using a secret
       - The secret is known exclusively by the User
     - Cannot withdraw > Balance
@@ -87,7 +106,7 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
   - Leverage CX data from the service usage to continously improve the same CX
   - First Simple Then Complex
   - Bias for Open Source
-  - Bias for Enterprise vendors
+  - Bias for Enterprise vendors (showcasing Microsoft Cloud)
     - integrated, interoperable, back-compatible, LTS, category-leader, hybrid, multi-cloud, secure/trusted
   - Bias for action
   - Modern Team qualities:
