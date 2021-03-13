@@ -1,6 +1,6 @@
 # MyBank
 MyBank CLI: simple console toy app to teach information technologies aimed to Banking Industry, 
-specially CxOs to desmitify IT thru a business competitive advantage lens.
+specially CxOs. MyBank is key to desmitify IT for non-technical people using domain specific concepts (i.e. Financial language).
 
 MyBank is an example on how DX can disrupt traditional Banking based on following assumptions:
 - Macrotrends:
