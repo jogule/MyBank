@@ -17,35 +17,36 @@ MyBank embrace Digital Transformation (DX) factors (trends, assumptions) with hi
 
 MyBank v1.0.0: Quick PoC to replicate existing service
 ------------------------------------------------------
-## Learning Goals
+### Learning Goals
   - Technical: What is Information? What is a Computer? I/O and GOTO
   - Industry: DX for Banking; What is Trust and Why is so Valuable?
   - Business: Computing Principles + inusual scenarios;
 
-## Recommended Reading (for begginer-level readers)
+### Recommended Reading (for begginer-level readers)
   - Code: The Hidden Language of Computer Hardware and Software - Charles Petzold - Microsoft Press
     - Chapter 1: Best Friends
   - Algorithms to Live By: The Computer Science of Human Decisions - Brian Christian and Tom Griffiths - Henry Hold and Company
     - Chapter 4: Caching
   - [Crash Course - Computer Science - Cryptography #33 - PBS Studios](https://www.youtube.com/watch?v=jhXCTbFnK8o&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=34)
 
-## Hands-on Challenge (for mid-level readers)
+### Hands-on Challenge (for mid-level readers)
   - Implement First Mockup of MyBank app for open account service: 
     - .exe executable (in ps o bash)
     - Pass the provided powershell test scripts
     - hint: [Tutorial: Create a .NET console application using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
     - hint: Microsoft Learn Nano Course [Take your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/)
 
-## Reference (for advance-level readers)
+### Reference (for advance-level readers)
   - [Summary of the Domain Driven Design concepts](https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091)
   - Test Driven Development: By Example 1st Edición - Kent Beck
   - [The Agile Manifesto](http://agilemanifesto.org/)
   - [12 Factors](https://12factor.net/)
   - [PACELC Theorem](https://en.wikipedia.org/wiki/PACELC_theorem)
+  - [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 Domain Model
 ------------
-## Essential Services (Functions):
+### Essential Services (Functions):
     OpenAccount(<email>) : creates a new Account 
     { 
       Id: <guid>, //[auto-generated]
@@ -78,7 +79,7 @@ Domain Model
       Status: Inactive //set Status to Inactive
     }
     
-## Essential Concepts (Data):
+### Essential Concepts (Data):
     - Account:
       - Id: <guid>
       - Balance : 0 (default) | <number> > 0
@@ -87,7 +88,7 @@ Domain Model
       - UserKey : <secret>
     - Token: Unique authenticable value representation (i.e. Bank Check)
 
-## Business Critical Success Factors (Assumptions/Warranties):
+### Business Critical Success Factors (Assumptions/Warranties):
     - MyBank is able to authenticate all user's request using a secret
       - The secret is known exclusively by the User
     - Cannot withdraw > Balance
@@ -98,13 +99,13 @@ Domain Model
 
 Project Status
 --------------
-## Current Iteration: v1.0.0 Quick PoC/Pilot/Prototype to replicate existing service
+### Current Iteration: v1.0.0 Quick PoC/Pilot/Prototype to replicate existing service
       - TODO: Process: Finish to implement a DevOps CI/CD pipeline based on containers
       - TODO: Functional: (UserStory) ShowAccount
       - TODO: Functional: Persist State (Define storage)
       - TODO: Non-Functional: (SW Architecture/Manteanability) Separation of Concerns (stateless from stateful) /Refactoring
       - TODO: QA: Bugs fixes
-## Roadmap (Backlog)
+### Roadmap (Backlog)
       - TODO: Process: Improve DevOps Velocity + Trust
       - TODO: Functional: UserStories: Deposit, Withdraw, CloseAccount
       - TODO: Non-Functional: Scalability; Availabilit, Costs, Reliability, Security, Performance, Operational Excellence
